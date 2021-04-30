@@ -1,0 +1,165 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+header{
+	padding-bottom: 85px;
+	background-color: #252525;
+	color: #fff;
+	margin: 0px;
+}
+header h1{
+	float: left;
+	padding: 5px;
+	padding-left: 5%;
+	text-align: center;
+}
+
+.banner{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	justify-content: center;
+	background-image: url('img/banner.jpg');
+}
+
+.banner h1{
+	color: #fff;
+	font-size: 60px;
+	word-break: break-all;
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+
+#about {
+	padding: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+#about h3{
+	padding: 20px;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #252525;
+}
+
+hr{
+	width: 70%;
+}
+
+#skill{
+	padding: 30px;
+	font-size: 20px;
+}
+
+#skill h3{
+	text-align: center;
+	background-color: #252525;
+	border-radius: 15px;
+	color: #fff;
+	padding: 20px;
+}
+
+#softskill {
+	margin: 50px;
+    display: flex;
+	text-align: center;
+    /*untuk memberi jarak antar card*/
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+	color: #fff;
+    border-radius: 15px;
+	word-break: break-all;
+	word-wrap: break-word;
+    background-color: #252525;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card p {
+    margin: 20px;
+}
+
+footer{
+	text-align: center;
+	margin: 0px;
+}
+
+#copy{
+	background-color: #252525;
+	padding: 20px;
+	color: #fff;
+	margin: 0px;
+	font-size: 20px;
+}
+
+#sosmed{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+#sosmed img {
+	height: 20px;
+	width: 20x;
+	margin: 0px;
+	padding-right: 5px;
+}
+
+#sosmed a{
+	color: #252525;
+	padding-right: 15px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#gallery{
+	padding: 30px;
+	font-size: 20px;
+}
+
+#gallery h3{
+	padding: 20px;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #252525;
+}
+
+#gambar {
+	margin: 50px;
+    display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+#gambar img{
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+}
+
+@media screen (max-width: 760px) {
+	#gambar{
+		width: 100%;
+		float: none;
+	}
+}
+
